@@ -1,0 +1,13 @@
+# Core dependencies
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+
+# GDS generation (gdstk is faster and has pre-built wheels!)
+gdstk>=0.9.0
+
+# Optional (if you want REST API)
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Utilities
+requests>=2.31.0
